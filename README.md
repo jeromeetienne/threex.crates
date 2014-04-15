@@ -1,14 +1,18 @@
 threex.crates
 =============
 
-threex.crates is a three.js extension which provide crates models.
+threex.crates is a three.js extension which provide crates models, 3 of them.
 This is a content extension, it helps when starting new projects.
+
+
 
 Show Don't Tell
 ===============
 * [examples/basic.html](http://jeromeetienne.github.io/threex.crates/examples/basic.html)
 \[[view source](https://github.com/jeromeetienne/threex.crates/blob/master/examples/basic.html)\] :
 It shows all the balls on a single screen.
+
+[![screenshot](http://jeromeetienne.github.io/threex.crates/examples/images/screenshot-threex-crates-512x512.jpg)](http://jeromeetienne.github.io/threex.crates/examples/basic.html)
 
 How To Install It
 =================
