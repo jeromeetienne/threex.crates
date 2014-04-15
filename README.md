@@ -12,7 +12,7 @@ Show Don't Tell
 \[[view source](https://github.com/jeromeetienne/threex.crates/blob/master/examples/basic.html)\] :
 It shows all the balls on a single screen.
 
-[![screenshot](http://jeromeetienne.github.io/threex.crates/examples/images/screenshot-threex-crates-512x512.jpg)](http://jeromeetienne.github.io/threex.crates/examples/basic.html)
+![screenshot](http://jeromeetienne.github.io/threex.crates/examples/images/screenshot-threex-crates-512x512.jpg)
 
 How To Install It
 =================
