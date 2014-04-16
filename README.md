@@ -7,9 +7,6 @@ Yeah you heard me, this is only boxes of wood. Why doing a extension for that.
 It is because crates are like a myth in 3d graphic, we put them everywhere.
 So if you need crates to easily put in your game, you know where to find it now :)
 
-
-
-
 Show Don't Tell
 ===============
 * [examples/basic.html](http://jeromeetienne.github.io/threex.crates/examples/basic.html)
