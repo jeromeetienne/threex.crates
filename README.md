@@ -3,9 +3,9 @@ threex.crates
 
 threex.crates is a [threex game extension for three.js](http://www.threejsgame.com/extensions/).
 It provides [crates](http://en.wikipedia.org/wiki/Crate) models, 3 of them to be accurate.
-Yeah you heard me, this is only boxes of wood. Why doing a extension for that. 
-It is because crates are like a myth in 3d graphic, we put them everywhere.
-So if you need crates to easily put in your game, you know where to find it now :)
+Yeah you heard me, this is only boxes of wood. Why doing an extension for that?
+Well, because crates are like a myth in 3d graphics, we put them everywhere.
+So if you need crates to easily put in your game, you know where to find them now :)
 
 Show Don't Tell
 ===============
