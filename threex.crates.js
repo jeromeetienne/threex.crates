@@ -83,15 +83,15 @@ THREEx.Crates.createCrateWood	= function(){
 	var baseURL	= THREEx.Crates.baseURL
 	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
 	var material	= new THREE.MeshPhongMaterial({
-		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_texture.png'),
+		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_texture.jpg'),
 
-		// bumpMap		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_bump.png'),
+		// bumpMap		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_bump.jpg'),
 		// bumpScale	: 0.01,
 
-		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_normal_opengl_style.png'),
+		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_normal_opengl_style.jpg'),
 		normalScale	: new THREE.Vector2(0.3,0.3),
 
-		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_reflective_occlusion.png'),
+		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_reflective_occlusion.jpg'),
 		specular	: new THREE.Color('#404040'),
 	})
 	var mesh	= new THREE.Mesh( geometry, material );
@@ -102,15 +102,15 @@ THREEx.Crates.createCrateMetal	= function(){
 	var baseURL	= THREEx.Crates.baseURL
 	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
 	var material	= new THREE.MeshPhongMaterial({
-		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_diffuse.png'),
+		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_diffuse.jpg'),
 
-		// bumpMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_bump.png'),
+		// bumpMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_bump.jpg'),
 		// bumpScale	: 0.1,
 
-		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_normal.png'),
+		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_normal.jpg'),
 		normalScale	: new THREE.Vector2(0.3,0.3),
 
-		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_reflective_occlusion.png'),
+		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_reflective_occlusion.jpg'),
 		specular	: new THREE.Color('white'),
 
 	})
