@@ -13,6 +13,9 @@ THREEx.Crates	= {};
 
 THREEx.Crates.baseURL	= '../'
 
+//////////////////////////////////////////////////////////////////////////////////
+//										//
+//////////////////////////////////////////////////////////////////////////////////
 
 THREEx.Crates.createCrate0	= function(){
 	var baseURL	= THREEx.Crates.baseURL
@@ -30,6 +33,11 @@ THREEx.Crates.createCrate0	= function(){
 	return mesh	
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////
+//										//
+//////////////////////////////////////////////////////////////////////////////////
+
 THREEx.Crates.createCrate1	= function(){
 	var baseURL	= THREEx.Crates.baseURL
 	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
@@ -46,6 +54,10 @@ THREEx.Crates.createCrate1	= function(){
 	return mesh	
 }
 
+//////////////////////////////////////////////////////////////////////////////////
+//										//
+//////////////////////////////////////////////////////////////////////////////////
+
 THREEx.Crates.createCrate2	= function(){
 	var baseURL	= THREEx.Crates.baseURL
 	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
@@ -61,4 +73,49 @@ THREEx.Crates.createCrate2	= function(){
 	var mesh	= new THREE.Mesh( geometry, material );
 	return mesh	
 }
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//										//
+//////////////////////////////////////////////////////////////////////////////////
+
+THREEx.Crates.createCrateWood	= function(){
+	var baseURL	= THREEx.Crates.baseURL
+	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
+	var material	= new THREE.MeshPhongMaterial({
+		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_texture.png'),
+
+		// bumpMap		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_bump.png'),
+		// bumpScale	: 0.01,
+
+		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_normal_opengl_style.png'),
+		normalScale	: new THREE.Vector2(0.3,0.3),
+
+		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/wood/crate_reflective_occlusion.png'),
+		specular	: new THREE.Color('#404040'),
+	})
+	var mesh	= new THREE.Mesh( geometry, material );
+	return mesh	
+}
+
+THREEx.Crates.createCrateMetal	= function(){
+	var baseURL	= THREEx.Crates.baseURL
+	var geometry	= new THREE.CubeGeometry( 1, 1, 1);
+	var material	= new THREE.MeshPhongMaterial({
+		map		: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_diffuse.png'),
+
+		// bumpMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_bump.png'),
+		// bumpScale	: 0.1,
+
+		normalMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_normal.png'),
+		normalScale	: new THREE.Vector2(0.3,0.3),
+
+		specularMap	: THREE.ImageUtils.loadTexture(baseURL+'images/llamapixel/metal/crate_metal_reflective_occlusion.png'),
+		specular	: new THREE.Color('white'),
+
+	})
+	var mesh	= new THREE.Mesh( geometry, material );
+	return mesh	
+}
+
 
